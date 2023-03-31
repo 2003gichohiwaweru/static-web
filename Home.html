@@ -15,6 +15,11 @@
         <div class="text">
             <h1>Poulor Studios</h1>
             <p>Style yourself Style your life</p>
+            <div class="btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+
+            </div>
         </div>
     </section>
     <style>
@@ -25,6 +30,42 @@
             background-position: center;
         }
     </style>
+    <div id="side">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contacts</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div id="menu">
+        <img src="photos/Barber_Shop_img/menu.png" id="men">
+
+
+    </div>
+    <script>
+        var menu= document.getElementById("menu")
+        var side= document.getElementById("side")
+        var men= document.getElementById("men")
+
+        side.style.right = "-250px";
+
+        menu.onclick = function(){
+            if(side.style.right == "-250px"){
+                side.style.right ="0";
+                men.src ="photos/Barber_Shop_img/close.png";
+
+            }
+            else{
+                side.style.right = "-250x";
+                men.src ="photos/Barber_Shop_img/menu.png";
+            }
+        }
+    </script>
     
 </body>
 </html>
