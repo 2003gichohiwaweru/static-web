@@ -2,6 +2,30 @@
     padding: 0px;
     margin: 0px;
 }
-#banner{
-    bac
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),#009688),url(photos/Barber_Shop_img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10px;
+}
+.text{
+    text-align: center;
+    color: bisque;
+    padding-top: 180px;
+
+}
+.text h1{
+    font-size: 150px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.text p{
+    font-size: 30px;
+    font-style: italic;
 }
