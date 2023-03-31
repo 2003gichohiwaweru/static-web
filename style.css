@@ -29,3 +29,34 @@
     font-size: 30px;
     font-style: italic;
 }
+.btn{
+    margin: 80px auto 0;
+
+}
+.btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: blue;
+    border: 5px solid blanchedalmond;
+    transition: color 0.5s;
+}
+.btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+btn a:hover span{
+    width: 100px;
+}
+btn a:hover span{
+    background-color: blueviolet;
+}
